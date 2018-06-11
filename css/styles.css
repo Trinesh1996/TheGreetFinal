@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  img{
+    max-width: 100%;  
+  }
+
+body{
+    background-image: url("../images/city-background.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;    
+}
+
+body h1{
+    font-size: 5em;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: purple;
+    opacity: 0.65; 
+  
+}
+
+body h5{
+    font-size: 1.5em;
+}
+
+span{
+    font-size: 1.5em;
+    padding-top: 2em;
+
+}
+
+header{
+  position: absolute;
+  font-weight: 500;
+  left: 0;
+  right: 0;
+  float: right;
+ }
+
+ .hidden-sm{
+  float: left;
+  display: inline-block;
+  color: #000000;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ }
+
+
+
+.label-body{
+  color: white;
+}
+.nameText{
+    color:black;
+    width: 75%;
+    text-align: center;
+  }
+
+  .lang{
+    margin: 2em;
+  }
+  
+  .lang2{
+    margin: 2em
+  }
+  .lang3{
+    margin: 2em;
+  }
+
+.row.border{
+  border-style: outset;
+  border-color: black;
+  margin: 4em; 
+  font-weight: bolder;
+  width: 100%;
+  height: 20%;
+}
+
+.row.border h5{
+  color: purple;
+  letter-spacing: 0.5em;
+  font-weight: bolder;
+}
+
+  input[type='radio']{
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;        
+        position: relative;
+        background-color: #d1d3d1;       
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        color: black; 
+    }
+
+.count.background{
+  color: black;
+  font-weight: bolder;
+  width: 120%; 
+}
+
+.greeting{  
+  font-weight: bolder;  
+  color: darkblue;
+  font-size: 2.7em;
+  letter-spacing: 0.4em;
+
+
+}
+.row.border span:hover {
+    background-color: white;
+    color: black;
+    padding: 0.06em;
+  }
